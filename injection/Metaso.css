@@ -1,0 +1,9 @@
+/* 隐藏侧边栏 */
+#searchRoot > div:first-of-type {
+  display: none !important;
+}
+
+/* 隐藏输入框 search-kits_home-search-box*/
+div[class^="search-kits_home-search-box_"] {
+  display: none !important;
+}

@@ -1,0 +1,3 @@
+div[data-state="expanded"], div.flex.gap-3.pb-0.w-full {
+  display: none !important;
+}

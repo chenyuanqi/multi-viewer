@@ -1,0 +1,21 @@
+pre, code {
+    user-select: text !important; 
+}
+
+/* 全局允许文本选择 */
+* {
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    user-select: auto !important;
+    -webkit-touch-callout: default !important; /* 允许长按选择 */
+    -webkit-user-drag: auto !important; /* 防止拖动干扰 */
+}
+
+/* 覆盖所有伪元素 */
+*::before,
+*::after {
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+}

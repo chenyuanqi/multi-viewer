@@ -1,0 +1,19 @@
+/* 隐藏侧边栏 */
+#sidebar {
+  display: none !important;
+}
+
+/* 隐藏对话框 */
+div.font-primary.relative.z-50.w-full, .chat-message-input {
+  display: none !important;
+}
+
+/* 对话内容宽度问题 */
+#chat-container {
+  width: 100%;
+}
+
+/* top0 导致的无法复制问题 */
+.top-0 {
+  pointer-events: none !important;
+}

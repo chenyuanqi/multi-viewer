@@ -1,0 +1,29 @@
+{
+    "appName": {
+      "message": "ChatBrawl:高效的GPT助手"
+    },
+    "appDesc": {
+      "message": "同时和多个 GPT 聊天。支持 ChatGPT、 Claude、 DeepSeek、 Grok、 Gemini以及更多！"
+    },
+    "newChatButton": {
+      "message": "新对话"
+    },
+    "webSearchButton": {
+      "message": "搜索"
+    },
+    "thinkingButton": {
+      "message": "思考"
+    },
+    "displaySites": {
+      "message": "显示站点"
+    },
+    "siteCheckTips": {
+      "message": "请选择要同时显示的站点。"
+    },
+    "siteCheckNote": {
+      "message": "请注意：使用前请确保您的网络可以访问官网，官网登录后再使用本插件效果更佳。\n⚠️同时打开过多页面会极大占用内存，请尽量控制在6个以内。\n由于网站经常变更，请保持插件更新到最新版本。"
+    },
+    "inputDataPlaceholder": {
+      "message": "在这里输入你的问题..."
+    }
+  }

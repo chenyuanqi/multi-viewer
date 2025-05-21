@@ -1,0 +1,9 @@
+/* 侧边栏隐藏 */
+bard-sidenav.ng-trigger{
+  display: none !important;
+}
+
+/* 对话框隐藏 */
+.input-area-container {
+  display: none !important;
+}

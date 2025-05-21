@@ -1,0 +1,5 @@
+/* 隐藏输入框 */
+div.absolute.bottom-0.mx-auto {
+  display: none !important;
+}
+

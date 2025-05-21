@@ -1,0 +1,29 @@
+{
+    "appName": {
+      "message": "ChatBrawl:Efficient GPT Assistant"
+    },
+    "appDesc": {
+      "message": "Chat with multiple GPTs simultaneously. Supports ChatGPT, Claude, DeepSeek, Grok, Gemini, and more!"
+    },
+    "newChatButton": {
+      "message": "New Chat"
+    },
+    "webSearchButton": {
+      "message": "Search"
+    },
+    "thinkingButton": {
+      "message": "Thinking"
+    },
+    "displaySites": {
+      "message": "Display Sites"
+    },
+    "siteCheckTips": {
+      "message": "Please select the stations to display simultaneously."
+    },
+    "siteCheckNote": {
+      "message": "Note: Make sure your network can access the official website before use. Logging in will enhance the plugin's performance.\n⚠️Opening too many pages at the same time will consume a lot of memory. Please try to keep it within 6.\nAs the website is frequently updated, please ensure the plugin is kept up to the latest version."
+    },
+    "inputDataPlaceholder": {
+      "message": "Enter your question here..."
+    }
+  }

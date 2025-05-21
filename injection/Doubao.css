@@ -1,0 +1,14 @@
+/* 隐藏对话框 */
+div[data-testid="chat_input"], div[data-testid="chat_footer_skill_bar"] {
+  display: none !important;
+}
+
+/* 由于豆包的特殊性，左侧边栏隐藏后 css 样式会有很大的改变，因此暂不隐藏 */
+/* aside[data-testid="chat_siderbar"] {
+  display: none !important;
+}
+
+div[class*="!overflow-visible"] > div, div[data-testid="message-list"] > div > div > div > div  {
+  padding: auto !important;
+} */
+

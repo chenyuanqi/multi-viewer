@@ -1,0 +1,15 @@
+/* 隐藏侧边栏 */
+div.bg-token-sidebar-surface-primary.z-21 {
+  display: none !important;
+}
+
+/* 隐藏输入框 */
+form[data-type="unified-composer"] {
+  display: none !important;
+}
+
+/* div.text-base .relative.h-full.w-full */
+/* 隐藏余额使用完的限制 */
+/* div[aria-haspopup="dialog"] {
+  display: none !important;
+} */

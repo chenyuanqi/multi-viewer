@@ -1,0 +1,23 @@
+/* 隐藏下载按钮 */
+div.agent-dialogue__tool, div[class^="index_pc_download_ads_card_banner_"] {
+  display: none !important;
+}
+
+/* 隐藏侧边栏 */
+/* .t-drawer__content-wrapper--left {
+  display: none !important;
+}
+
+#hunyuan-bot {
+  margin-left: 0px !important;
+} */
+
+/* 隐藏输入框 */
+.yb-input-box-textarea {
+  display: none !important;
+}
+
+/* 页面中间的内容 */
+.document-settings, .input-guide, .input-guide-v2 {
+  display: none !important;
+}

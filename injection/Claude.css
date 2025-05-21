@@ -1,0 +1,9 @@
+/* 隐藏侧边栏 */
+div.fixed.z-sidebar {
+  display: none !important;
+}
+
+/* 隐藏输入框 */
+div.cursor-text{
+  display: none !important;
+}
