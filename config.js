@@ -125,6 +125,16 @@ const SUPPORTED_SITES = [
     injectionStyle: 'injection/Yuanbao.css',
     tools: ['WebSearch', 'Thinking'],
   }, {
+      name: '文心一言',
+      org: '百度',
+      url: 'https://yiyan.baidu.com/',
+      icon: 'https://nlp-eb.cdn.bcebos.com/logo/favicon.ico',
+      urlFilters: ['||yiyan.baidu.com/*'],
+      enabled: false,
+      injectionScript: 'injection/Yiyan.js',
+      injectionStyle: 'injection/Yiyan.css',
+      tools: ['WebSearch', 'Thinking'],
+  }, {
     name: '百小应',
     org: 'BaiChuan',
     url: 'https://ying.baichuan-ai.com/chat',
@@ -144,35 +154,35 @@ const SUPPORTED_SITES = [
     injectionScript: 'injection/ZhiPu.js',
     injectionStyle: 'injection/ZhiPu.css',
     tools: ['WebSearch', 'Thinking'],
-  // }, {
-  //   name: '知乎直达',
-  //   org: '知乎',
-  //   url: 'https://zhida.zhihu.com/',
-  //   icon: 'https://pic1.zhimg.com/v2-7e3856b1a6d415224ca95814132a3612.png',
-  //   urlFilters: ['||zhida.zhihu.com/*'],
-  //   enabled: false,
-  //   injectionScript: 'injection/ZhiHu.js',
-  //   injectionStyle: 'injection/ZhiHu.css',
-  //   tools: ['WebSearch', 'Thinking'],
-    // },{
-    //   name: '文心一言',
-    //   org: '百度',
-    //   url: 'https://yiyan.baidu.com/',
-    //   icon: 'https://nlp-eb.cdn.bcebos.com/logo/favicon.ico',
-    //   urlFilters: ['||yiyan.baidu.com/*'],
-    //   enabled: false,
-    //   injectionScript: 'injection/Yiyan.js',
-    //   injectionStyle: 'injection/Yiyan.css',
-    //   tools: ['WebSearch', 'Thinking'],
-    // }, {
-    //   name: '秘塔AI',
-    //   url: 'https://metaso.cn/',
-    //   icon: 'https://metaso.cn/favicon.ico',
-    //   urlFilters: ['||metaso.cn/*'],
-    //   enabled: false,
-    //   injectionScript: 'injection/Metaso.js',
-    //   injectionStyle: 'injection/Metaso.css',
-    // },{
+  }, {
+    name: '知乎直达',
+    org: '知乎',
+    url: 'https://zhida.zhihu.com/',
+    icon: 'https://pic1.zhimg.com/v2-7e3856b1a6d415224ca95814132a3612.png',
+    urlFilters: ['||zhida.zhihu.com/*'],
+    enabled: false,
+    injectionScript: 'injection/ZhiHu.js',
+    injectionStyle: 'injection/ZhiHu.css',
+    tools: ['WebSearch', 'Thinking'],
+    }, {
+      name: '讯飞星火',
+      url: 'https://xinghuo.xfyun.cn/desk',
+      icon: 'https://xinghuo.xfyun.cn/spark-icon.ico',
+      urlFilters: ['||xfyun.cn/*'],
+      enabled: false,
+      injectionScript: 'injection/Xinghuo.js',
+      injectionStyle: 'injection/Xinghuo.css',
+      tools: []
+    }, {
+      name: '秘塔AI',
+      url: 'https://metaso.cn/',
+      icon: 'https://metaso.cn/favicon.ico',
+      urlFilters: ['||metaso.cn/*'],
+      enabled: false,
+      injectionScript: 'injection/Metaso.js',
+      injectionStyle: 'injection/Metaso.css',
+      tools: []
+    }, {
     //   name: 'Meta',
     //   url: 'https://www.meta.ai/', // 此站点会报错，暂时无法解决
     //   icon: 'https://static.xx.fbcdn.net/rsrc.php/v4/yG/r/e8dQ3HclyZY.png',
@@ -180,30 +190,15 @@ const SUPPORTED_SITES = [
     //   enabled: false,
     //   injectionScript: 'injection/Mistral.js'
     // },{
-    //   name: 'Perplexity',
-    //   url: 'https://www.perplexity.ai/',
-    //   icon: 'https://www.perplexity.ai/favicon.ico',
-    //   urlFilters: ['||perplexity.ai/*'],
-    //   enabled: false,
-    //   injectionScript: 'injection/Perplexity.js',
-    //   injectionStyle: 'injection/Perplexity.css',
-    // },{
-    //   name: '讯飞星火',
-    //   url: 'https://xinghuo.xfyun.cn/desk',
-    //   icon: 'https://xinghuo.xfyun.cn/spark-icon.ico',
-    //   urlFilters: ['||xfyun.cn/*'],
-    //   enabled: false,
-    //   injectionScript: 'injection/Xinghuo.js',
-    //   injectionStyle: 'injection/Xinghuo.css',
-    // }, {
-    //   name: '秘塔AI',
-    //   url: 'https://metaso.cn/',
-    //   icon: 'https://metaso.cn/favicon.ico',
-    //   urlFilters: ['||metaso.cn/*'],
-    //   enabled: false,
-    //   injectionScript: 'injection/Metaso.js',
-    //   injectionStyle: 'injection/Metaso.css',
-  },
+      name: 'Perplexity',
+      url: 'https://www.perplexity.ai/',
+      icon: 'https://www.perplexity.ai/favicon.ico',
+      urlFilters: ['||perplexity.ai/*'],
+      enabled: false,
+      injectionScript: 'injection/Perplexity.js',
+      injectionStyle: 'injection/Perplexity.css',
+      tools: []
+    },
 ];
 
 const DEFAULT_APPEARANCE = {

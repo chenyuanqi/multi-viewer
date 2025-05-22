@@ -273,7 +273,7 @@ export async function initSettings() {
           <svg class="wh-18"><use href="#JumpOut-icon"></use></svg>
         </a>
         <div class="tools-container">
-          ${site.tools.map(tool => `<svg class="wh-14"><use href="#${tool}-icon"></use></svg>`).join(' ')}
+          ${site.tools && Array.isArray(site.tools) ? site.tools.map(tool => `<svg class="wh-14"><use href="#${tool}-icon"></use></svg>`).join(' ') : ''}
         </div>
       </label>
     `;
